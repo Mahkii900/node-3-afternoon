@@ -15,7 +15,6 @@ massive(CONNECTION_STRING)
 
 app.use(express.json())
 
-//testing...
 app.get('/api/products', prodCtrl.getAll)
 app.get('/api/products/:id', prodCtrl.getOne)
 app.put('/api/products/:id', prodCtrl.update)
